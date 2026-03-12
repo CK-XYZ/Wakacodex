@@ -1,0 +1,39 @@
+{
+  "name": "wakacodex",
+  "version": "1.0.0",
+  "description": "Minimal WakaTime hook for Codex CLI",
+  "license": "BSD-3-Clause",
+  "author": "CK-XYZ",
+  "homepage": "https://github.com/CK-XYZ/Wakacodex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CK-XYZ/Wakacodex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CK-XYZ/Wakacodex/issues"
+  },
+  "keywords": [
+    "codex",
+    "openai",
+    "wakatime",
+    "time-tracking",
+    "hooks"
+  ],
+  "bin": {
+    "wakacodex": "bin/wakacodex.js"
+  },
+  "files": [
+    "bin",
+    "examples",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "packageManager": "bun@1.3.5",
+  "scripts": {
+    "test": "bun test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
