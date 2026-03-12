@@ -1,5 +1,8 @@
 # Wakacodex
 
+[![npm version](https://img.shields.io/npm/v/wakacodex)](https://npmjs.com/package/wakacodex)
+[![npm downloads](https://img.shields.io/npm/dm/wakacodex)](https://npmjs.com/package/wakacodex)
+
 Minimal WakaTime integration for Codex using the experimental `SessionStart` and `Stop` hooks added in Codex `0.114.0`.
 
 This package deliberately stays quiet:
